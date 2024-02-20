@@ -8,16 +8,22 @@
 }
 
 .name {
-  font-size: 200px;
+  font-size: 150px;
   margin-bottom: 0;
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .email {
   margin-bottom: 0;
+  font-family: "Cinzel", serif;
 }
 
 .position {
   margin-bottom: 0;
+  font-family: "Cinzel", serif;
 }
 
 @media (prefers-reduced-motion: no-preference) {
