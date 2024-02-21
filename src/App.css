@@ -18,11 +18,20 @@
 
 .email {
   margin-bottom: 0;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 16px;
 }
-
+.helper{
+  font-size: 16px;
+  font-family: "Montserrat Alternates", sans-serif;
+}
 .position {
+  font-size: 26px;
   margin-bottom: 0;
-  font-family: "Cinzel", serif;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -32,7 +41,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #60627C;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
