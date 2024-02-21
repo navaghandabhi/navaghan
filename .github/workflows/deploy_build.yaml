@@ -1,0 +1,25 @@
+name: Deploy Build From Master Push
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+jobs:
+  build_and_deploy:
+    runs-on: windows-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Master
+        uses: actions/checkout@v4
+      - name: install node 
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+      - name: install dependencies
+        run: npm install
+      - name: make a build of project
+        run: npm run build
+      - name: deploy to Github pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: build
