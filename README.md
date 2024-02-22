@@ -1,5 +1,5 @@
 ## Check Preview Here
-(https://navaghandabhi.github.io/navaghan/)
+https://navaghandabhi.github.io/navaghan/
 
 ## Getting Started with Create React App
 
