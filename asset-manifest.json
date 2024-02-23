@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/navaghan/static/css/main.b8664427.css",
+    "main.css": "/navaghan/static/css/main.c1433c7e.css",
     "main.js": "/navaghan/static/js/main.3c56a906.js",
     "static/js/453.8cc5c917.chunk.js": "/navaghan/static/js/453.8cc5c917.chunk.js",
     "index.html": "/navaghan/index.html",
-    "main.b8664427.css.map": "/navaghan/static/css/main.b8664427.css.map",
+    "main.c1433c7e.css.map": "/navaghan/static/css/main.c1433c7e.css.map",
     "main.3c56a906.js.map": "/navaghan/static/js/main.3c56a906.js.map",
     "453.8cc5c917.chunk.js.map": "/navaghan/static/js/453.8cc5c917.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8664427.css",
+    "static/css/main.c1433c7e.css",
     "static/js/main.3c56a906.js"
   ]
 }
