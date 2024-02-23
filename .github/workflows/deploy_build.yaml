@@ -23,3 +23,13 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: build
+      - name: Push Release to Github
+        uses: ncipollo/release-action@v1
+        with:
+          artifacts: "build" 
+          tag: v1.0.${{github.run_number}} 
+          token: ${{ secrets.TOKEN }} 
+          body: |
+            Release for version v1.0.${{github.run_number}}
+            
+            Check out the deployed website at: https://navaghandabhi.github.io/navaghan
